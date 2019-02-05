@@ -11,7 +11,3 @@ def my_select(collection)
     end
  output
 end
-
-my_select(nums) do |num|
-  num.even?
-end
