@@ -4,6 +4,7 @@ def my_select(collection)
  output = []
  while i < collection.length 
     yield collection[i]
+    binding.pry
     # if yield == true
     #   output << yield
     # end
