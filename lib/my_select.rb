@@ -13,3 +13,6 @@ def my_select(collection)
  output
 end
 
+expect(my_select(nums) do |num|
+  num.even?
+end
